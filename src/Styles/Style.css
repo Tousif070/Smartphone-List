@@ -1,0 +1,36 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.header h1 {
+    font-weight: 600;
+}
+
+.phonemodel--div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 30px 30px;
+}
+
+.phonemodel {
+    width: 28%;
+}
+
+.phonemodel img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.phonemodel p {
+    margin-bottom: 0;
+}
+
+.phonemodel label {
+    font-weight: 500;
+}
+
+.phonemodel span {
+    font-weight: 300;
+}
